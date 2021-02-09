@@ -1,0 +1,68 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.main_cont {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 15px;
+  width: 500px;
+  height: 400px;
+  /* overflow-y: scroll; */
+  margin: 15px;
+}
+.list {
+  height: 240px;
+  overflow-y: scroll;
+  background-color: white;
+}
+.todobody {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_cont h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main_cont form {
+  text-align: center;
+}
+.main_cont form input {
+  line-height: 3px;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.main_cont form input:focus {
+  outline: 2px solid rgb(104, 255, 104);
+}
+.list {
+  margin-top: 30px;
+}
+.list li {
+  list-style: none;
+  margin: 10px;
+}
+.worr {
+  word-wrap: break-word;
+}
+@media screen and (max-width: 600px) {
+  .main_cont {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .editbtn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .main_cont form input {
+    width: 100%;
+  }
+}
